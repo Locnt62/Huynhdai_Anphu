@@ -1,0 +1,99 @@
+.footer_top{
+    position: relative;
+    z-index: 1;
+    margin-top: 0px;
+    background-color: #f7f7f7;
+    padding: 45px 0;
+    font-size: 15px;
+    color: #222222;
+}
+
+.textwidget {
+    margin-top: 25px;
+    color: #fff;
+    line-height: 20px;
+    text-align: left;
+}
+
+
+.footer_headings {
+    font-size: 16px;
+    margin: 0;
+    padding-bottom: 15px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.footer_top .top-line {
+    background: #fff;
+    height: 1px;
+    margin: 0;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+
+.footer_headings {
+    font-size: 16px;
+    margin: 0;
+    padding-bottom: 15px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+ .footermenu .title {
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+ .footermenu ul {
+    padding: 3px 0 30px;
+    list-style-type: none;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+
+/* .copyright a, p {
+    font-size: 14px !important;
+    color: #172D52;
+    font-weight: bold;
+}
+
+
+.menu-bot{
+    background-color: #fff;
+        height: 45px;
+}
+
+
+.list-inline {
+    padding-left: 100px;
+    margin-left: -5px;
+    list-style: none;
+}
+
+
+.list-inline li {
+    height: 45px !important;
+    line-height: 45px !important;
+    padding: 0 10px;
+    display: inline-block;
+}
+
+.list-inline li a {
+    color: black !important;
+    font-size: 14px !important;
+} */
+
+
+.email{
+    padding: 30px 0;
+    background-color: #f7fafd;
+    margin-top: 30px;
+}

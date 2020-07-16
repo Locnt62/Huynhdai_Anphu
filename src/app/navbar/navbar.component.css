@@ -1,0 +1,403 @@
+ .header .navbar-collapse {
+    padding: 0;
+    /* border-bottom: 1px solid #c0c8c9; */
+    /* margin-top: 10px; */
+ } 
+.header  {
+    padding: 0;
+    border-bottom: 1px solid #c0c8c9;
+    /* margin-top: 10px; */
+}
+
+.nav_item{
+    color: black !important;
+    font-weight: 500;
+}
+
+
+.group_icon {
+    margin: 10px;
+    position: fixed;
+    bottom: 30%;
+    z-index: 999;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+.group_icon .icon {
+    padding: 5px;
+}
+
+.group_icon .icon a {
+    display: block;
+    height: 40px;
+    position: relative;
+    text-align: center;
+    line-height: 40px;
+    width: 40px;
+    margin-bottom: 1px;
+    z-index: 2;
+    transition: transform .2s;
+}
+
+
+.make-regist {
+    margin: 10px;
+    position: fixed;
+    bottom: 40%;
+    right: 0;
+    z-index: 999;
+    width: 15%;
+    font-weight: 600;
+}
+
+.make-regist .regist, .make-regist .make-app {
+    transition: transform .2s;
+    height: 40px;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: #ff4d4d;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-weight: 600;
+}
+
+.make-regist a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+
+.fix_tel {
+    position: fixed;
+    bottom: 15px;
+    left: 18px;
+    z-index: 999;
+}
+
+
+.ring-alo-phone.ring-alo-show {
+    visibility: visible;
+}
+
+.ring-alo-phone {
+    background-color: transparent;
+    cursor: pointer;
+    height: 80px;
+    position: absolute;
+    transition: visibility 0.5s ease 0s;
+    visibility: hidden;
+    width: 80px;
+    z-index: 200000 !important;
+}
+
+
+.ring-alo-phone.ring-alo-green .ring-alo-ph-circle {
+    border-color: #e54b23;
+    opacity: 0.5;
+}
+
+.ring-alo-ph-circle {
+    animation: 1.2s ease-in-out 0s normal none infinite running ring-alo-circle-anim;
+    background-color: transparent;
+    border: 2px solid rgba(30, 30, 30, 0.4);
+    border-radius: 100%;
+    height: 70px;
+    left: 10px;
+    opacity: 0.1;
+    position: absolute;
+    top: 12px;
+    transform-origin: 50% 50% 0;
+    transition: all 0.5s ease 0s;
+    width: 70px;
+}
+
+.ring-alo-phone.ring-alo-green .ring-alo-ph-circle-fill {
+    background-color: rgba(0, 175, 242, 0.5);
+    opacity: 0.75 !important;
+}
+.ring-alo-ph-circle-fill {
+    animation: 2.3s ease-in-out 0s normal none infinite running ring-alo-circle-fill-anim;
+    background-color: #000;
+    border: 2px solid transparent;
+    border-radius: 100%;
+    height: 30px;
+    left: 30px;
+    opacity: 0.1;
+    position: absolute;
+    top: 33px;
+    transform-origin: 50% 50% 0;
+    transition: all 0.5s ease 0s;
+    width: 30px;
+}
+
+.ring-alo-phone.ring-alo-green .ring-alo-ph-img-circle {
+    background-color: #D60202;
+    border: 1px solid #fff;
+}
+.ring-alo-ph-img-circle {
+    animation: 1s ease-in-out 0s normal none infinite running ring-alo-circle-img-anim;
+    border: 2px solid transparent;
+    border-radius: 100%;
+    height: 30px;
+    left: 30px;
+    opacity: 1;
+    position: absolute;
+    top: 33px;
+    transform-origin: 50% 50% 0;
+    width: 30px;
+}
+
+
+.fix_tel a {
+    text-decoration: none;
+    display: block;
+}
+
+
+.ring-alo-ph-img-circle a img {
+    padding: 1px 0 0 1px;
+    width: 30px;
+    position: relative;
+    top: -1px;
+}
+
+
+.tel {
+    background: #D60202;
+    width: 205px;
+    height: 40px;
+    position: relative;
+    overflow: hidden;
+    background-size: 40px;
+    border-radius: 28px;
+    border: solid 1px #ccc;
+}
+
+.fone {
+    font-size: 22px;
+    color: #fff;
+    line-height: 40px;
+    font-weight: bold;
+    padding-left: 45px;
+    margin: 0 0;
+}
+
+
+.hide {
+    display: none;
+  }
+      
+  .myDIV:hover .hide {
+    display: block !important;
+    color: red;
+  }
+
+
+  /* .navbar-default{
+
+    background-color: #f5f5f5;
+  } */
+
+
+  /* .navbar-logo {
+    line-height: 60px;
+}
+
+.float-left {
+    float: left!important;
+}
+
+a {
+    text-decoration: none;
+    color: #737373;
+    background-color: transparent;
+}
+
+
+.navbar-logo.dealer-logo {
+    width: 175px;
+    max-width: 175px;
+    line-height: 56px !important;
+}
+
+.float-right {
+    float: right!important;
+}
+
+.navbar-header {
+    width: 100% !important;
+}
+
+
+.collapse ul {
+    display: inline;
+    list-style-type: none;
+}
+
+
+.collapse ul li  {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #ccc;
+    font-size: 14px !important;
+}
+
+
+.collapse a {
+    font-size: 14px !important;
+}
+ul li {
+    list-style-type: none;
+}
+
+.dropdown-menu {
+    border-top: 2px solid #172D52 !important;
+}
+
+
+.contact-header.fix-position {
+    width: 310px !important;
+    padding: 0px 0px;
+    background-color: yellow;
+    border-radius: 5px;
+}
+
+.fix-position {
+    position: fixed;
+    bottom: 20px;
+    left: 15px;
+    z-index: 1000000;
+}
+
+
+
+ul#info-fixed > li {
+    background-color: #ed1c24;
+    border-radius: 0 25px 25px 0;
+    color: #fff;
+    display: block;
+    float: none;
+    font-size: 16px;
+    font-weight: bold;
+    left: 0;
+    margin-bottom: 2px;
+    position: relative;
+    transition: all .3s ease-in-out 0;
+    width: auto;
+}
+
+
+ul#info-fixed {
+    height: 50px;
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    z-index: 9995;
+    padding: 0;
+}
+
+
+
+ul#info-fixed a {
+    display: block;
+    color: #fff;
+    padding: 2px 2px 2px 5px;
+}
+
+
+.fixed-hotline-text {
+    display: inline-block;
+    text-align: center;
+    line-height: 24px;
+}
+
+ul#info-fixed .icon {
+    display: inline-block;
+    float: right;
+    height: 47px;
+    margin: 1px 0 0 5px;
+    width: 47px;
+} */
+
+
+.floating-top {
+    display: inline;
+    width: 80px;
+    height: 80px;
+    background: url(/images/back_to_top_1.png) left top / 100% 100% no-repeat;
+    position: fixed;
+    bottom: 100px;
+    right: 10%;
+    cursor: pointer;
+    stop-opacity: 0;
+    z-index: 1000000;
+    opacity: 0.8;
+}
+
+
+
+/* phan hover */
+
+
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+  }
+  
+ 
+
+  .dropdown-content1 {
+    display: none;
+    position: absolute;
+    /* background-color: #f1f1f1; */
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+    /* margin-top: 1px; */
+    border-top: 2px solid #0E528B;
+    background-color: white;
+    /* padding: 23px; */
+  }
+  
+  
+  
+
+  .dropdown-content1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+
+  .dropdown-content1 a:hover {
+      /* background-color: #ddd; */
+      background-color: #be7a08;
+      color: white !important;
+}
+  
+
+  .dropdown1:hover .dropdown-content1 {display: block;}
+
+
+
+  .logo-hd {
+    margin: 40px 8px 0;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    transform: translateX(-15%);
+}
+
+
+.navbar-nav > li:last-child{
+    margin-left: auto;
+}

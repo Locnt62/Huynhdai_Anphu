@@ -1,0 +1,1244 @@
+<div class="container-fluid h-100" style="margin-bottom: 50px;">
+    <div class="d-none d-sm-block">
+        <div class="banner">
+            <div class="row">
+                <!-- <div class="col-md-2 col-lg-2 col-12 p-0"></div> -->
+                <div class="col-md-8 col-lg-8 offset-2 col-12 ">
+                    <div class="container content_banner">
+                        <div class="row">
+                            <div class="col-md-4 col-lg-4 col-xs-12 col-12 ">
+                                <div id="gioi-thieu">
+                                    <span
+                                        style="font-weight: 700;color: black;text-transform: uppercase;font-size: 18px;">Grand
+                                        i10</span>
+                                </div>
+                                <div class="slogan modernHEcoLight"
+                                    style="padding-right: 9%;padding-bottom: 5px;font-size: 18px;font-weight: 500;text-transform: uppercase;">
+                                    Nhấn nút khởi động cuộc sống mới</div>
+                                <div class="summary">- Thiết kế cá tính, thời trang <br>
+                                    - Kết nối không giới hạn <br>
+                                    - Bền bỉ, mạnh mẽ và an toàn <br></div>
+                                <div class="item-productprice">
+                                    <a href="/vi/du-toan-chi-phi?productid=25" class="btn btn-detail-product">
+                                        Dự toán chi phí
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-8 col-lg-8 col-xs-12 col-12 ">
+                                <img src="../../assets/images/GRAND-I10 (1).png" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div *ngIf="viTri > 200">
+                <div class="floating-top" href="#" (click)="scrollTo('gioi-thieu')"
+                    style="display: block; background-color: black;text-align: center;border-radius: 10px;cursor: pointer;">
+                    <span style="font-size: 12px !important;color: white;border-bottom: 3px solid white;padding-bottom: 4px;">Về đầu trang</span>
+                    <span style="font-size: 40px;">
+                        <i class="fa fa-arrow-up fa " style="color: white;" ></i></span>
+                </div>
+            </div>
+
+            <div class="option_item" [class.affix]="viTri > 460">
+                <div class="row linebottom" data-spy="affix" data-offset-top="197">
+                    <div class="col-md-8 col-lg-8 offset-2 col-12 col-centered"
+                        style="text-align: center;z-index: 9;padding-top: 10px;">
+                        <div class="row option-xe">
+                            <div class="col-lg-2 col-md-2 col-2 item-affixcontrol">
+                                <img src="../../assets/images/affix-cover-active.png" class="img-fluid"><br>
+                                <p
+                                    style="margin-top: 5px; font-size: 14px !important; color: #337ab7 !important;font-weight: 600;">
+                                    Giới thiệu</p>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-2 item-affixcontrol">
+                                <img src="../../assets/images/affix-360.png" class="img-fluid"><br>
+                                <p
+                                    style="margin-top: 5px; font-size: 14px !important; color: #337ab7 !important;font-weight: 600;">
+                                    Cảm nhận 360</p>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-2 item-affixcontrol">
+                                <img src="../../assets/images/affix-gallery.png" class="img-fluid"><br>
+                                <p
+                                    style="margin-top: 5px; font-size: 14px !important; color: #337ab7 !important;font-weight: 600;">
+                                    Hình ảnh</p>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-2 item-affixcontrol">
+                                <img src="../../assets/images/affix-spec.png" class="img-fluid"><br>
+                                <p
+                                    style="margin-top: 5px; font-size: 14px !important; color: #337ab7 !important;font-weight: 600;">
+                                    Thông số xe</p>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-2 item-affixcontrol">
+                                <img src="../../assets/images/affix-catalog.png" class="img-fluid"><br>
+                                <p
+                                    style="margin-top: 5px; font-size: 14px !important; color: #337ab7 !important;font-weight: 600;">
+                                    Tải catalog</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-8 col-lg-8 offset-2 col-12 col-centered"
+                        style="z-index: 9;padding-bottom: 4px; border-bottom: 1px solid #737373;">
+                        <img src="../../assets/images/GRAND-I10_logo.png" class="img-fluid">
+                    </div>
+
+                    <div class="col-md-8 col-lg-8 offset-2 col-12 list_ite" style="padding: 0px;">
+                        <ul class="modernHBold submenu" style="margin: 0; text-align: left;">
+                            <li class="item_content">
+                                <span (click)="scrollTo('noi-bat')" class="title-prd on" href="#slide_content01"
+                                    style="cursor: pointer;font-weight: 600 !important;color: #3f86c6 !important; text-transform: none !important;font-size: 14px !important;">
+                                    Nổi bật
+                                </span>
+                            </li>
+                            <li class="item_content">
+                                <span (click)="scrollTo('ngoai-that')" class="title-prd" href="#slide_content02"
+                                    style="cursor: pointer;font-weight: 600 !important;color: #3f86c6 !important; text-transform: none !important;font-size: 14px !important;">
+                                    Ngoại thất
+                                </span>
+                            </li>
+                            <li class="item_content">
+                                <span (click)="scrollTo('noi-that')" class="title-prd" href="#slide_content03"
+                                    style="cursor: pointer;font-weight: 600 !important;color: #3f86c6 !important; text-transform: none !important;font-size: 14px !important;">
+                                    Nội thất
+                                </span>
+                            </li>
+                            <li class="item_content">
+                                <span (click)="scrollTo('van-hanh')" class="title-prd" href="#slide_content04"
+                                    style="cursor: pointer;font-weight: 600 !important;color: #3f86c6 !important; text-transform: none !important;font-size: 14px !important;">
+                                    Vận hành
+                                </span>
+                            </li>
+                            <li class="item_content">
+                                <span (click)="scrollTo('an-toan')" class="title-prd" href="#slide_content05"
+                                    style="cursor: pointer;font-weight: 600 !important;color: #3f86c6 !important; text-transform: none !important;font-size: 14px !important;">
+                                    An toàn
+                                </span>
+                            </li>
+                            <li class="item_content">
+                                <span (click)="scrollTo('tien-nghi')" class="title-prd" href="#slide_content06"
+                                    style="cursor: pointer;font-weight: 600 !important;color: #3f86c6 !important; text-transform: none !important;font-size: 14px !important;">
+                                    Tiện nghi
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content_detail" style="margin-bottom: 50px;margin-top: 50px;">
+            <div class=" row content_header">
+                <!-- <div class="col-md-2 col-lg-2 col-12 p-0"></div> -->
+                <div class="col-md-8 col-lg-8 offset-2 col-12" id="noi-bat">
+                    <!-- <div class="titlecate">
+                        <p>BẢNG GIÁ</p>
+                    </div>
+                    <div style="padding-top: 20px;" class="copyright">
+                        <p><em><strong style="font-size: 16px !important;">Hyundai Giải Phóng kính gửi Quý khách hàng
+                                    bảng giá của Hyundai Grand i10 2019. </strong></em></p>
+                        <p>
+                            <img src="../../assets/images/bang-gia-xe-grand-i10-2019.png" width="710" height="369"
+                                style="display: block;margin-left: auto;margin-right: auto;" class="img-fluid">
+                        </p>
+                        <p style="text-align: center;font-weight: bolder;"><em>Bảng giá cập nhật mới nhất xe Hyundai
+                                Grand i10 2019</em></p>
+                        <p>Để biệt thêm về các chương trình khuyến mại đang áp dụng cho dòng xe này cũng như báo giá tốt
+                            nhất Quý Khách hàng vui lòng liên hệ hotline&nbsp;<span
+                                style="color: #ff0000; font-size: medium;"><strong>090 618 1166</strong></span>&nbsp;để
+                            được chúng tôi tư vấn hỗ trợ quý khách hàng.</p>
+                        <p>Để biết thêm thông tin về bảng giá và dự toán chi phí các dòng xe Hyundai, vui lòng truy cập
+                            tại đây:&nbsp;</p>
+                        <p>-&nbsp;<a title="bang-gia-xe-hyundai" style="color: blue;"
+                                href="http://hyundaigiaiphong.com.vn/vi/bang-gia">http://hyundaigiaiphong.com.vn/vi/bang-gia</a>
+                        </p>
+                        <p>-<a title="Dự toán chi phí" href="http://hyundaigiaiphong.com.vn/vi/du-toan-chi-phi"
+                                style="color: blue;">&nbsp;http://hyundaigiaiphong.com.vn/vi/du-toan-chi-phi</a>
+                        </p>
+                        <p><em>&gt;&gt;&gt; Bạn đang phân vân về màu sắc xem thêm bài viết </em>: <strong><a
+                                    href="http://onehyundai.vn/tin-tuc-su-kien/chon-mau-xe-theo-phong-thuy.html"
+                                    style="color: blue;font-size: 16px !important;font-weight: bolder;">Hướng
+                                    dẫn Chọn màu xe theo phong thủy giúp chủ nhân luôn "MAY MẮN BÌNH AN"</a></strong>
+                        </p>
+                    </div> -->
+                    <!-- <div class="titlecate">
+                        <p>NỔI BẬT</p>
+                    </div> -->
+
+
+                    <div class="titlecate-detail modernHBold">
+                        <span style="padding: 8px 18px;">NỔI BẬT</span>
+                    </div>
+                </div>
+
+                <div style="padding-top: 20px;">
+                    <div>
+                        <div class="pip_cont">
+                            <div class="text_play" style="margin: 70px 0;">
+                                <div class="text1"
+                                    style="color: #222; font-size: 42px; text-transform: uppercase; font-weight: 600; text-align: center;">
+                                    KHÔNG GIAN RỘNG RÃI TRONG MỘT THIẾT KẾ NHỎ GỌN</div>
+                                <div class="text2"
+                                    style="color: #666; font-size: 17.7px; line-height: 28px;font-weight: 600;  text-align: center; margin-top: 31px;">
+                                    <strong><a href="http://hyundaibacninh.vn/vi/san-pham/grand-i10">Grand
+                                            i10</a></strong> sở hữu kích thước lớn hàng đầu phân khúc, đem đến một
+                                    không gian thỏa mái tối đa cũng như phong cách năng động cho chủ nhân. Bên cạnh
+                                    đó, những công nghệ hàng đầu được trang bị trên xe giúp cho trải nghiệm lái xe
+                                    càng trở nên thú vị</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-lg-12  col-12 ">
+                    <div class="row">
+                        <div class="col-md-4 co-lg-4 col-sm-4 col-12">
+                            <img src="../../assets/images/nb1.jpg" style="width: 100%;height: auto;" class="img-fluid">
+                        </div>
+                        <div class="col-md-4 co-lg-4 col-sm-4 col-12" style="padding-top: 80px;">
+                            <p style="font-size: 24px; text-align: center;font-weight: 600;">THIẾT KẾ ẤN TƯỢNG</p>
+                            <p
+                                style="text-align: center; color: #666; padding: 0 17px; font-size: 16px !important; line-height: 1.7;">
+                                <strong><a title="xe grand i10"
+                                        href="http://hyundaibacninh.vn/vi/san-pham/grand-i10">G</a><a
+                                        title="xe grand i10"
+                                        href="http://hyundaigiaiphong.com.vn/vi/san-pham/grand-i10">rand i10
+                                        2019</a></strong>&nbsp;gây ấn tượng bởi vẻ ngoài mạnh mẽ, thể thao hơn với điểm
+                                nhấn là lưới tản nhiệt được thiết kế mới phong cách Thác nước cùng dải đèn LED chạy ban
+                                ngày Daytime Running Lights (DRL).</p>
+                        </div>
+                        <div class="col-md-4 co-lg-4 col-sm-4 col-12">
+                            <img src="../../assets/images/nb2.jpg" style="width: 100%;height: auto;" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-12" style="margin-top: 20px;text-align: center;">
+                    <img class="img-fluid" style="width: 70%; margin: 0 auto;" src="../../assets/images/nb3.png" alt=""
+                        width="100%" height="auto">
+                </div>
+                <div class="col-lg-12 col-md-12 col-12 no-padding" style="padding: 0;">
+                    <img class="img-fluid" style="width: 100%;" src="../../assets/images/nb4.jpg" alt="" width="100%"
+                        height="auto">
+                    <div class="hidden-xs d-none d-sm-block subject container"
+                        style="position: absolute; top: 30%; left: 58%; width: 40%; ">
+                        <h3 style="margin: 0; color: white; font-size: 24.3px; line-height: 130%; text-align: left;">
+                            Phong cách thể thao với lưới tản nhiệt được thiết kế mới theo phong cách “Thác nước”</h3>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-12 col-12 " style="margin-top: 10px;padding: 0;">
+                    <img class="img-fluid" style="width: 100%;" src="../../assets/images/nb5.jpg" alt="" width="100%"
+                        height="auto">
+                    <div class="hidden-xs d-none d-sm-block subject"
+                        style="position: absolute; top: 30%; right: 55%; width: 40%; ">
+                        <h3
+                            style="margin: 0;  color: white; font-size: 24.3px; line-height: 130%; text-align: left; margin-top: 32px; margin-left: 5px;">
+                            Phong cách thể thao không thể nhầm lẫn</h3>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-12 col-12">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6 col-12">
+                            <img class="img-fluid" src="../../assets/images/nb6.jpg" alt="">
+                            <div class="subject" style="z-index: 1;">
+                                <h3
+                                    style="z-index: 1; margin: 0 0 23px; color: #333; font-size: 30px; line-height: 130%; text-align: left;">
+                                    Không gian chứa đồ rộng rãi</h3>
+                                <p class="hidden-xs d-none d-sm-block"
+                                    style="color: #666;  line-height: 1.7; font-size: 15px !important;">
+                                    <strong><a href="/vi/san-pham/grand-i10-sedan">Grand i10</a></strong> sở hữu không
+                                    gian chứa đồ lớn nhất phân khúc, giúp bạn chở được tối đa số hành lí cho những
+                                    chuyến đi cùng với cả gia đình.<br><br></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-12">
+                            <img class="img-fluid" src="../../assets/images/nb7.jpg" alt="">
+                            <div class="subject">
+                                <h3
+                                    style="margin: 0 0 23px; color: #333; font-size: 30px; line-height: 130%; text-align: left;">
+                                    An toàn tối đa</h3>
+                                <p class="hidden-xs d-none d-sm-block"
+                                    style="color: #666;  line-height: 1.7; font-size: 15px !important;">
+                                    <strong>Grand i10</strong> được trang bị 2 túi khí cho ghế lái và ghế phụ, đảm bảo
+                                    an toàn tối đa cho hành khách trong trường hợp xảy ra va chạm.<br><br></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-8 col-lg-8 offset-2 col-12" id="ngoai-that">
+                    <!-- <div class="titlecate">
+                        <p>NGOẠI THẤT</p>
+                    </div> -->
+                    <div class="titlecate-detail modernHBold">
+                        <span style="padding: 8px 18px;border-bottom: 3px solid #0E528B;">NGOẠI THẤT</span>
+                    </div>
+
+                </div>
+                <div class="col-lg-12 col-md-12 col-12" style="padding: 0;">
+                    <div style="padding-top: 30px;">
+                        <div style="padding-top: 45px;">
+                            <div class="hidden-xs d-none d-sm-block"
+                                style="position: relative;font-family: ModernHEcoLight;max-width: 1920px;width: 100%;height: 520px;margin: 0 auto;overflow: hidden;color: transparent;background: url(http://hyundaibacninh.vn/tempfiles/uploads/ChiTietXe/Grandi10-2017/ngoaithat/nb1.jpg) no-repeat fixed 50% 50% #fff;">
+                                .</div>
+                            <div class="text1"
+                                style="color: black;text-transform: uppercase;text-align: center; font-size: 26px; margin-top: 60px;font-weight: 500;">
+                                Ấn tượng từ cái nhìn đầu tiên</div>
+                            <div class="text2"
+                                style="color: #666666; font-size: 17px; line-height: 24px; text-align: center;font-weight: 500;">
+                                Mọi đường nét trên <strong><a
+                                        href="http://hyundaibacninh.vn/vi/san-pham/grand-i10-sedan">Grand
+                                        i10</a></strong> đều để lại ấn tượng về sự cá tính, thời trang và phong cách.
+                            </div>
+                            <div class="text2 container" style=" text-align: center;"><img class="img-fluid"
+                                    style="margin-top: 50px;" src="../../assets/images/ngoaithat1.png" alt=""></div>
+                            <div class="row">
+                                <div class="col-md-8 col-lg-8 offset-2 col-12">
+                                    <div class="text2"
+                                        style="color: #666; font-size: 21px; line-height: 24px; text-align: center;">
+                                        <div class="container no-padding">
+                                            <div class="row">
+                                                <div class="col-md-6 col-lg-6 col-12">
+                                                    <ul style="padding: 0; list-style-type: none;">
+                                                        <li style="display: block;">
+                                                            <div class="img"><img class="img-fluid lazy"
+                                                                    src="../../assets/images/nb2 (2).jpg"
+                                                                    alt="exterior_front_sub1_on"></div>
+                                                            <div class="hidden-xs d-none d-sm-block txt"
+                                                                style="position: absolute; left: 7%; top: 5%; right: 7%; line-height: 20px; color: #888888; z-index: 14; text-align: justify;">
+                                                                <strong
+                                                                    style="display: block; margin: 0 0 20px 0; font-size: 17px line-height: 24px; color: #fff;font-weight: 700;">Đèn
+                                                                    pha</strong>
+                                                                <p class="hidden-xs d-none d-sm-block"
+                                                                    style="font-size: 16px !important;color: #888888 !important;">
+                                                                    Cụm
+                                                                    đèn pha chiếu sáng của Grand i10 được thiết kế trang
+                                                                    nhã,
+                                                                    hài hòa với tổng thể của chiếc xe đồng thời đảm bảo
+                                                                    độ sáng
+                                                                    tối đa.</p>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-md-6 col-lg-6 col-12">
+                                                    <ul style="padding: 0; list-style-type: none;">
+                                                        <li style="display: block;">
+                                                            <div class="img"><img class="img-fluid lazy"
+                                                                    src="../../assets/images/nb3.jpg"
+                                                                    alt="exterior_front_sub1_on"></div>
+                                                            <div class="hidden-xs d-none d-sm-block txt"
+                                                                style="position: absolute; left: 7%; top: 5%; right: 7%; line-height: 20px; color: #888888; z-index: 14; text-align: justify;">
+                                                                <strong
+                                                                    style="display: block; margin: 0 0 20px 0; font-size: 17px; line-height: 24px; color: #fff;font-weight: 700;">Cụm
+                                                                    đèn LED ban ngày mới</strong>
+                                                                <p class="hidden-xs d-none d-sm-block"
+                                                                    style="font-size: 16px !important;color: #888888 !important;">
+                                                                    Cụm đèn LED chạy ban ngày mới (Daytime Running
+                                                                    Lights) trên
+                                                                    Grand i10 đem đến vẻ thể thao đậm nét cho chiếc xe.
+                                                                </p>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-md-6 col-lg-6 col-12">
+                                                    <ul style="padding: 0; list-style-type: none;">
+                                                        <li style="display: block;">
+                                                            <div class="img"><img class="img-fluid lazy"
+                                                                    src="../../assets/images/nb4 (1).jpg"
+                                                                    alt="exterior_front_sub1_on"></div>
+                                                            <div class="hidden-xs d-none d-sm-block txt"
+                                                                style="position: absolute; left: 7%; top: 5%; right: 7%; line-height: 20px; color: #888888; z-index: 14; text-align: justify;">
+                                                                <strong
+                                                                    style="display: block; margin: 0 0 20px 0; font-size: 17px; line-height: 24px; color: #fff;font-weight: 700;">Cụm
+                                                                    lưới tản nhiệt mới</strong>
+                                                                <p class="hidden-xs d-none d-sm-block"
+                                                                    style="font-size: 16px !important;color: #888888 !important;">
+                                                                    Grand i10 2019 sở hữu cụm lưới tản nhiệt mới tạo
+                                                                    hình Thác
+                                                                    nước, trở thành điểm nhận diện đặc trưng trong thiết
+                                                                    kế của
+                                                                    các mẫu xe Hyundai.</p>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="text1"
+                                        style="color: black;text-transform: uppercase; text-align: center; font-size: 26px; margin-top: 60px;font-weight: 500;">
+                                        Chiếc xe đô thị hàng đầu</div>
+                                    <div class="text2 container"
+                                        style="color: #666666; font-size: 17px;  text-align: center;line-height: 24px;font-weight: 500;">
+                                        Sở hữu những đường nét thiết kế mạnh mẽ và đậm nét cá tính, <strong>Grand i10
+                                            2019</strong> được nâng tầm đẳng cấp của một chiếc xe đô thị hàng đầu.</div>
+                                    <div class="text2 container"
+                                        style="color: #666; font-size: 1.6rem; line-height: 24px; font-family: ModernHEcoLight; text-align: center;">
+                                        <img class="img-fluid lazy" style="margin-top: 50px;"
+                                            src="../../assets/images/ngoaithat2.png" alt="" width="1155" height="556">
+                                    </div>
+                                    <div class="text2"
+                                        style="color: #666; font-size: 21px; line-height: 24px; text-align: center;">
+                                        <div class="container no-padding" style="padding-top: 40px;">
+                                            <div class="row">
+                                                <div class="col-md-6 col-lg-6 col-12">
+                                                    <ul style="padding: 0; list-style-type: none;">
+                                                        <li style="display: block;">
+                                                            <div class="img"><img class="img-fluid lazy"
+                                                                    src="../../assets/images/nb5 (1).jpg"
+                                                                    alt="exterior_front_sub1_on"></div>
+                                                            <div class="hidden-xs d-none d-sm-block txt"
+                                                                style="position: absolute; left: 7%; top: 5%; right: 7%; line-height: 20px; color: #888888; z-index: 14; text-align: justify;">
+                                                                <strong
+                                                                    style="display: block; margin: 0 0 20px 0; font-size: 17px; line-height: 24px; color: #fff;font-weight: 700;">Gương
+                                                                    chiếu hậu tích hợp xinhan dạng LED</strong>
+                                                                <p class="hidden-xs d-none d-sm-block"
+                                                                    style="font-size: 16px !important;color: #888888 !important;">
+                                                                    Hyundai Grand i10 sở hữu gương điều khiển điện, tích
+                                                                    hợp
+                                                                    báo
+                                                                    rẽ dạng LED mang đến vẻ hiện đại cũng như đảm bảo an
+                                                                    toàn
+                                                                    khi chuyển hướng cho xe.</p>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-md-6 col-lg-6 col-12">
+                                                    <ul style="padding: 0; list-style-type: none;">
+                                                        <li style="display: block;">
+                                                            <div class="img"><img class="img-fluid lazy"
+                                                                    src="../../assets/images/nb6 (1).jpg"
+                                                                    alt="exterior_front_sub1_on"></div>
+                                                            <div class="hidden-xs d-none d-sm-block txt"
+                                                                style="position: absolute; left: 7%; top: 5%; right: 7%; line-height: 20px; color: #888888; z-index: 14; text-align: justify;">
+                                                                <strong
+                                                                    style="display: block; margin: 0 0 20px 0; font-size: 17px; line-height: 24px; color: #fff;font-weight: 700;">Ốp
+                                                                    hông thể thao</strong>
+                                                                <p class="hidden-xs d-none d-sm-block"
+                                                                    style="font-size: 16px !important;color: #888888 !important;">
+                                                                    Grand i10 2019 sở hữu tấm ốp hông tăng thêm vẻ thể
+                                                                    thao,
+                                                                    cá
+                                                                    tính và năng động cho xe.</p>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-md-6 col-lg-6 col-12">
+                                                    <ul style="padding: 0; list-style-type: none;">
+                                                        <li style="display: block;">
+                                                            <div class="img"><img class="img-fluid lazy"
+                                                                    src="../../assets/images/nb7 (1).jpg"
+                                                                    alt="exterior_front_sub1_on"></div>
+                                                            <div class="hidden-xs d-none d-sm-block txt"
+                                                                style="position: absolute; left: 7%; top: 5%; right: 7%; line-height: 20px; color: #888888; z-index: 14; text-align: justify;">
+                                                                <strong
+                                                                    style="display: block; margin: 0 0 20px 0; font-size: 17px; line-height: 24px; color: #fff;font-weight: 700;">LAZANG
+                                                                    DIAMOND CUT</strong>
+                                                                <p class="hidden-xs d-none d-sm-block"
+                                                                    style="font-size: 16px !important;color: #888888 !important;">
+                                                                    Grand i10 sở hữu bộ lazang hợp kim kích cỡ 14 inch
+                                                                    Diamond
+                                                                    cut, tạo nên vẻ cá tính và thời trang cho chiếc xe
+                                                                    và
+                                                                    chủ sở
+                                                                    hữu.</p>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text1"
+                                        style="color: black;text-transform: uppercase; text-align: center; font-size: 26px; margin-top: 60px;font-weight: 500;">
+                                        Chiếc xe đô thị hàng đầu</div>
+                                    <div class="text2 container"
+                                        style="color: #666666; font-size: 17px;  text-align: center;line-height: 24px;font-weight: 500;">
+                                        Sở hữu những đường nét thiết kế mạnh mẽ và đậm nét cá tính, <strong>Grand i10
+                                            2019</strong> được nâng tầm đẳng cấp của một chiếc xe đô thị hàng đầu.</div>
+                                    <div class="text2 container"
+                                        style="color: #666; font-size: 1.6rem; line-height: 24px; font-family: ModernHEcoLight; text-align: center;">
+                                        <img class="img-fluid lazy" style="margin-top: 50px;"
+                                            src="../../assets/images/ngoaithat3.png" alt="" width="1155" height="556">
+                                    </div>
+                                    <div class="text2"
+                                        style="color: #666; font-size: 21px; line-height: 24px; text-align: center;">
+                                        <div class="container no-padding" style="padding-top: 40px;">
+                                            <div class="row">
+                                                <div class="col-md-6 col-lg-6 col-12">
+                                                    <ul style="padding: 0; list-style-type: none;">
+                                                        <li style="display: block;">
+                                                            <div class="img"><img class="img-fluid lazy"
+                                                                    src="../../assets/images/nb8.jpg"
+                                                                    alt="exterior_front_sub1_on"></div>
+                                                            <div class="hidden-xs d-none d-sm-block txt"
+                                                                style="position: absolute; left: 7%; top: 5%; right: 7%; line-height: 20px; color: #888888; z-index: 14; text-align: justify;">
+                                                                <strong
+                                                                    style="display: block; margin: 0 0 20px 0; font-size: 17px; line-height: 24px; color: #fff;font-weight: 700;">Sấy
+                                                                    kính sau</strong>
+                                                                <p class="hidden-xs d-none d-sm-block"
+                                                                    style="font-size: 16px !important;color: #888888 !important;">
+                                                                    Grand i10 sở hữu kính sau tích hợp chức năng sấy
+                                                                    điện,
+                                                                    giúp
+                                                                    đảm bảo tầm nhìn phía sau cho người lái trong điều
+                                                                    kiện
+                                                                    trời
+                                                                    sương mù hoặc có mưa.</p>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-md-6 col-lg-6 col-12">
+                                                    <ul style="padding: 0; list-style-type: none;">
+                                                        <li style="display: block;">
+                                                            <div class="img"><img class="img-fluid lazy"
+                                                                    src="../../assets/images/nb9.jpg"
+                                                                    alt="exterior_front_sub1_on"></div>
+                                                            <div class="hidden-xs d-none d-sm-block txt"
+                                                                style="position: absolute; left: 7%; top: 5%; right: 7%; line-height: 20px; color: #888888; z-index: 14; text-align: justify;">
+                                                                <strong
+                                                                    style="display: block; margin: 0 0 20px 0; font-size: 17px; line-height: 24px; color: #fff;font-weight: 700;">Đèn
+                                                                    hậu kích cỡ lớn</strong>
+                                                                <p class="hidden-xs d-none d-sm-block"
+                                                                    style="font-size: 16px !important;color: #888888 !important;">
+                                                                    Grand i10 sở hữu cụm đèn hậu kích cỡ lớn, được bố
+                                                                    trí ở
+                                                                    vị
+                                                                    trí thuận tiện dễ quan sát, nhằm tăng độ nhận diện
+                                                                    từ
+                                                                    xa,
+                                                                    giúp đảm bảo an toàn khi vận hành.</p>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-md-6 col-lg-6 col-12">
+                                                    <ul style="padding: 0; list-style-type: none;">
+                                                        <li style="display: block;">
+                                                            <div class="img"><img class="img-fluid lazy"
+                                                                    src="../../assets/images/nb10.jpg"
+                                                                    alt="exterior_front_sub1_on"></div>
+                                                            <div class="hidden-xs d-none d-sm-block txt"
+                                                                style="position: absolute; left: 7%; top: 5%; right: 7%; line-height: 20px; color: #888888; z-index: 14; text-align: justify;">
+                                                                <strong
+                                                                    style="display: block; margin: 0 0 20px 0; font-size: 17px; line-height: 24px; color: #fff;font-weight: 700;">Cản
+                                                                    sau thiết kế mới với 2 tông màu</strong>
+                                                                <p class="hidden-xs d-none d-sm-block"
+                                                                    style="font-size: 16px !important;color: #888888 !important;">
+                                                                    Grand i10 2019 được tái thiết kế cản sau với tấm nền
+                                                                    màu
+                                                                    đen
+                                                                    cùng 2 tấm phản quang màu đỏ nổi bật, giúp tăng vẻ
+                                                                    thể
+                                                                    thao,
+                                                                    năng động cho xe.</p>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="container" style="margin-top: 50px;">
+                                        <div class="row">
+                                            <div class="col-lg-4 col-md-4 col-12">
+                                                <img class="img-fluid lazy" style="margin-top: 50px;"
+                                                    src="../../assets/images/nb15.jpg" alt="" width="1155" height="556">
+                                                <span class="description"
+                                                    style="color: #656565; font-size: 16px; padding: 0; width: 306px; line-height: 20px;font-weight: 500;"><strong
+                                                        style="display: inline-block; padding: 10px 0 10px 0; color: black !important; font-weight: normal; font-size: 16px;font-weight: 500;">Đèn
+                                                        sương mù</strong><br>Đèn sương mù của <strong>Grand i10</strong>
+                                                    được
+                                                    đặt thấp ở phần cản trước, giúp tăng đảm bảo ánh sáng trong điều
+                                                    kiện
+                                                    vận
+                                                    hành có sương mù.</span>
+                                            </div>
+                                            <div class="col-lg-4 col-md-4 col-12">
+                                                <img class="img-fluid lazy" style="margin-top: 50px;"
+                                                    src="../../assets/images/nb16.jpg" alt="" width="1155" height="556">
+                                                <span class="description"
+                                                    style="color: #656565; font-size: 16px; padding: 0; width: 306px; line-height: 20px;font-weight: 500;"><strong
+                                                        style="display: inline-block; padding: 10px 0 10px 0; color: black !important; font-weight: normal; font-size: 16px;font-weight: 500;">Hốc
+                                                        hút gió trước</strong><br>Hốc hút gió phía trước nhằm giảm đáng
+                                                    kể
+                                                    sức
+                                                    cản của gió đồng thời giảm nhiệt la-zăng, lốp, giúp tăng cường khả
+                                                    năng
+                                                    vận
+                                                    hành ổn định và an toàn.</span>
+                                            </div>
+                                            <div class="col-lg-4 col-md-4 col-12">
+                                                <img class="img-fluid lazy" style="margin-top: 50px;"
+                                                    src="../../assets/images/nb17.jpg" alt="" width="1155" height="556">
+                                                <span class="description"
+                                                    style="color: #656565; font-size: 16px; padding: 0; width: 306px; line-height: 20px;font-weight: 500;"><strong
+                                                        style="display: inline-block; padding: 10px 0 10px 0; color: black !important; font-weight: normal; font-size: 16px;font-weight: 500;">Tay
+                                                        nắm cửa mạ CromF</strong><br>Tay nắm cửa mạ Crom trên
+                                                    <strong>Grand
+                                                        i10</strong> tạo nên vẻ lịch lãm, sang trọng cho chiếc
+                                                    xe.</span>
+                                            </div>
+                                            <div class="col-lg-4 col-md-4 col-12">
+                                                <img class="img-fluid lazy" style="margin-top: 50px;"
+                                                    src="../../assets/images/nb11.jpg" alt="" width="1155" height="556">
+                                                <span class="description"
+                                                    style="color: #656565; font-size: 16px; padding: 0; width: 306px; line-height: 20px;font-weight: 500;"><strong
+                                                        style="display: inline-block; padding: 10px 0 10px 0; color: black !important; font-weight: normal; font-size: 16px;font-weight: 500;">Tấm
+                                                        phản quang phía sau</strong><br>Tấm phản quang đuôi xe được
+                                                    thiết kế
+                                                    mới, kết hợp cùng cản sau màu đen tạo nên vẻ nổi bật và mạnh mẽ cho
+                                                    Grand
+                                                    i10.</span>
+                                            </div>
+                                            <div class="col-lg-4 col-md-4 col-12">
+                                                <img class="img-fluid lazy" style="margin-top: 50px;"
+                                                    src="../../assets/images/nb12.jpg" alt="" width="1155" height="556">
+                                                <span class="description"
+                                                    style="color: #656565; font-size: 16px; padding: 0; width: 306px; line-height: 20px;font-weight: 500;"><strong
+                                                        style="display: inline-block; padding: 10px 0 10px 0; color: black !important; font-weight: normal; font-size: 16px;font-weight: 500;">Gạt
+                                                        mưa kính sau</strong><br><strong>Grand
+                                                        i10</strong> được trang bị gạt mưa ở kính sau, giúp làm sạch tấm
+                                                    kính
+                                                    tăng khả năng quan sát của lái xe.</span>
+                                            </div>
+                                            <div class="col-lg-4 col-md-4 col-12">
+                                                <img class="img-fluid lazy" style="margin-top: 50px;"
+                                                    src="../../assets/images/nb13.jpg" alt="" width="1155" height="556">
+                                                <span class="description"
+                                                    style="color: #656565; font-size: 16px; padding: 0; width: 306px; line-height: 20px;font-weight: 500;"><strong
+                                                        style="display: inline-block; padding: 10px 0 10px 0; color: black !important; font-weight: normal; font-size: 16px;font-weight: 500;">Đèn
+                                                        phanh trên cao</strong><br>Xe được trang bị đèn phanh trên cao
+                                                    dạng
+                                                    LED,
+                                                    giúp nhanh chóng cảnh báo cho phương tiện phía sau biết khi bạn thực
+                                                    hiện
+                                                    phanh, dừng trong khi lưu thông.</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-8 col-lg-8 offset-2 col-12" id="noi-that">
+                    <div class="titlecate-detail modernHBold">
+                        <span style="padding: 8px 18px;border-bottom: 3px solid #0E528B;">NỘI THẤT</span>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-12 col-12" style="padding: 0;">
+                    <div style="padding-top: 30px;">
+                        <div style="padding-top: 45px;">
+                            <div class="hidden-xs d-none d-sm-block"
+                                style="position: relative; font-family: MorderHEcolight; font-size: 16px; max-width: 1920px; width: 100%; height: 520px; margin: 0 auto; overflow: hidden; color: transparent; background: url(http://hyundaibacninh.vn/tempfiles/uploads/ChiTietXe/Grandi10-2017/noithat/noi11.png) no-repeat fixed 50% 50% #fff;">
+                                .</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-8 col-lg-8 offset-2 col-12">
+
+                    <div class="pip_cont">
+                        <div class="text-play" style="margin: 70px 0;">
+                            <div class="text1"
+                                style="color: black;text-transform: uppercase; text-align: center; font-size: 26px; margin-top: 60px;font-weight: 500;">
+                                KHÔNG GIAN NỘI THẤT ẤN TƯỢNG</div>
+                            <div class="text2 container"
+                                style="color: #666666; font-size: 17px;  text-align: center;line-height: 24px;font-weight: 500;">
+                                <strong><a href="http://hyundaibacninh.vn/vi/san-pham/grand-i10-sedan">Grand
+                                        i10</a></strong> sở hữu không gian nội thất rộng rãi, kết hợp cùng phong cách
+                                thiết kế cá tính với những màu sắc trẻ trung tạo nên vẻ ấn tượng không thể trộn lẫn.
+                            </div>
+                        </div>
+                    </div>
+                    <div style="position: relative; left: 0; top: 0; width: 100%; text-align: center;"><img
+                            class="img-fluid lazy" style="display: inline;" src="../../assets/images/noi2.jpg"
+                            alt="interior_color_1"></div>
+                    <div class="features" style="clear: both; width: 100%; text-align: center; margin-top: 27px;">
+                        <strong
+                            style="display: block; font-size: 27px; color: #222; line-height: 24px; color: #337ab7;"><a>Tiện
+                                nghi hàng đầu</a></strong>
+                        <p style="padding: 15px 0 0 0; font-size: 15px; line-height: 20px; color: #888888; ">
+                            <strong>Grand i10</strong> sở hữu những tính năng tiện ích cao cấp hàng đầu phân khúc,
+                            <br>giúp đáp ứng những đòi hỏi khắt khe nhất của chủ sở hữu.</p>
+                    </div>
+
+
+                    <div class="container no-padding" style="margin-top: 50px;">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-6 col-12">
+                                <ul style="padding: 0; list-style-type: none;">
+                                    <li style="display: block;">
+                                        <div class="img"><img class="img-fluid lazy" src="../../assets/images/noi3.jpg"
+                                                alt="exterior_front_sub1_on"></div>
+                                        <div class="hidden-xs d-none d-sm-block txt"
+                                            style="position: absolute; left: 7%; top: 5%; right: 7%; line-height: 20px; color: #888888; z-index: 14; text-align: justify;">
+                                            <strong
+                                                style="display: block; margin: 0 0 20px 0; font-size: 17px; line-height: 24px; color: #fff;font-weight: 700;">Ngăn
+                                                chứa đồ có chức năng làm mát</strong>
+                                            <p class="hidden-xs d-none d-sm-block"
+                                                style="font-size: 16px !important; color: #888888 !important;">
+                                                Grand i10 được trang bị ngăn chứa đồ có chức năng làm mát, giúp những
+                                                món đồ ăn, đồ uống của bạn luôn trong tình trạng tươi ngon sẵn sàng để
+                                                thưởng thức.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-12">
+                                <ul style="padding: 0; list-style-type: none;">
+                                    <li style="display: block;">
+                                        <div class="img"><img class="img-fluid lazy" src="../../assets/images/noi4.jpg"
+                                                alt="exterior_front_sub1_on"></div>
+                                        <div class="hidden-xs d-none d-sm-block txt"
+                                            style="position: absolute; left: 7%; top: 5%; right: 7%; line-height: 20px; color: #888888; z-index: 14; text-align: justify;">
+                                            <strong
+                                                style="display: block; margin: 0 0 20px 0; font-size: 17px; line-height: 24px; color: #fff;font-weight: 700;">Màn
+                                                hình trung tâm cảm ứng 7 inch</strong>
+                                            <p class="hidden-xs d-none d-sm-block"
+                                                style="font-size: 16px !important; color: #888888 !important;">
+                                                Grand i10 sở hữu màn hình cảm ứng trung tâm kích cỡ 7 inch, hỗ trợ giải
+                                                trí nghe nhạc Mp3/Radio/Bluetooth/Usb/AUX, xem phim Mp4 FullHD cùng bản
+                                                đồ tích hợp được phát triển dành riêng cho thị trường Việt Nam.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 col-lg-6 col-12">
+                                <ul style="padding: 0; list-style-type: none;">
+                                    <li style="display: block;">
+                                        <div class="img"><img class="img-fluid lazy" src="../../assets/images/noi5.jpg"
+                                                alt="exterior_front_sub1_on">
+                                        </div>
+                                        <div class="hidden-xs d-none d-sm-block txt"
+                                            style="position: absolute; left: 7%; top: 5%; right: 7%; line-height: 20px; color: #888888; z-index: 14; text-align: justify;">
+                                            <strong
+                                                style="display: block; margin: 0 0 20px 0; font-size: 17px; line-height: 24px; color: #fff;font-weight: 700;">Vô
+                                                lăng tích hợp phím chức năng</strong>
+                                            <p class="hidden-xs d-none d-sm-block"
+                                                style="font-size: 16px !important; color: #888888 !important;">
+                                                <strong><a href="http://hyundaibacninh.vn/vi/san-pham/grand-i10"
+                                                        style="color: blue;">Grand i10</a></strong>
+                                                Grand i10 sở hữu bộ lazang hợp kim kích cỡ 14 inch Diamond
+                                                cut, tạo nên vẻ cá tính và thời trang cho chiếc xe và chủ sở
+                                                hữu.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="container" style="margin-top: 50px;">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <img class="img-fluid lazy" style="margin-top: 50px;" src="../../assets/images/noi6.jpg"
+                                    alt="" width="1155" height="556">
+                                <span class="description"
+                                    style="color: #656565; font-size: 16px; padding: 0; width: 306px; line-height: 20px;font-weight: 500;"><strong
+                                        style="display: inline-block; padding: 10px 0 10px 0; color: black !important; font-weight: normal; font-size: 16px;font-weight: 500;">Túi
+                                        tài liệu sau ghế</strong><br>Túi tài liệu được thiết kế liền mạch tại mặt lưng
+                                    ghế hàng ghế trước, giúp bạn có thể để những cuốn sách và tạp chí yêu thích.</span>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <img class="img-fluid lazy" style="margin-top: 50px;" src="../../assets/images/noi7.jpg"
+                                    alt="" width="1155" height="556">
+                                <span class="description"
+                                    style="color: #656565; font-size: 16px; padding: 0; width: 306px; line-height: 20px;font-weight: 500;"><strong
+                                        style="display: inline-block; padding: 10px 0 10px 0; color: black !important; font-weight: normal; font-size: 16px;font-weight: 500;">Ghế
+                                        điều chỉnh độ cao</strong><br>Hệ thống bơm hơi trên xe có cơ cấu đơn giản và
+                                    hiệu quả giúp ghế người lái có thể điều chỉnh độ cao để giúp đạt tới vị trí như mong
+                                    muốn.</span>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <img class="img-fluid lazy" style="margin-top: 50px;" src="../../assets/images/noi8.jpg"
+                                    alt="" width="1155" height="556">
+                                <span class="description"
+                                    style="color: #656565; font-size: 16px; padding: 0; width: 306px; line-height: 20px;font-weight: 500;"><strong
+                                        style="display: inline-block; padding: 10px 0 10px 0; color: black !important; font-weight: normal; font-size: 16px;font-weight: 500;">Giá
+                                        để cốc trung tâm</strong><br><strong>Grand
+                                        i10</strong> được trang bị giá để cốc trung tâm có vị trí thuận lợi, giúp để
+                                    những món đồ hay đồ uống ưa thích của bạn một cách dễ dàng.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-8 col-lg-8 offset-2 col-12" id="van-hanh">
+                    <div class="titlecate-detail modernHBold">
+                        <span style="padding: 8px 18px;border-bottom: 3px solid #0E528B;">VẬN HÀNH</span>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-12" style="padding: 0;">
+                    <div style="padding-top: 30px;">
+                        <div style="padding-top: 45px;">
+                            <div class="hidden-xs d-none d-sm-block"
+                                style="position: relative; max-width: 1920px; width: 100%; height: 520px; margin: 0 auto; overflow: hidden; color: transparent; background: url(http://hyundaibacninh.vn/tempfiles/uploads/ChiTietXe/Grandi10-2017/vanhanh/v1.jpg) no-repeat fixed 50% 50% #fff;">
+                                .</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-8 col-lg-8 offset-2 col-12">
+                    <div>
+                        <div>
+                            <div class="container text1"
+                                style="color: black;text-transform: uppercase; text-align: center; font-size: 26px; margin-top: 60px;font-weight: 500;">
+                                KHẢ NĂNG VẬN HÀNH XUẤT SẮC</div>
+                            <div class="container"
+                                style="color: #666666; font-size: 17px !important;  text-align: center;line-height: 24px;">
+                                <p class="text2" style="font-size: 17px !important;color: #666666 !important;">
+                                    <strong><a href="http://hyundaibacninh.vn/vi/san-pham/grand-i10">Grand
+                                            i10</a></strong>
+                                    được tối ưu với hệ thống khung gầm, động cơ, hộp số đem đến khả năng vận hành xuất
+                                    sắc, cân bằng giữa những yếu tố bền bỉ và tiết kiệm.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-fluid" style="list-style: none container; margin-top: 140px;">
+                        <div class="container-fluid" style="position: relative; width: 100%; height: 666px;">
+                            <div class="row">
+                                <div class="col-lg-6 col-6 col-md-6"
+                                    style="clear: both;position: relative;padding-left: 10%;padding-top: 4%;">
+                                    <div class="row">
+                                        <div
+                                            style="clear: both;font-size: 30px;font-weight: 400;color: #222;line-height: 33px;margin-top: -33px;">
+                                            Động cơ Kappa 1.2L</div>
+                                        <p style=" font-size: 16px !important;">Cung cấp công suất 87
+                                            mã lực tại 6.000 vòng/phút cùng Momen xoắn cực đại 120Nm tại 4.000 vòng/phút
+                                            với mức khí thải CO2 tối thiểu nhờ công nghệ điều khiển van biến thiên
+                                            (CVVT)</p>
+                                    </div>
+                                    <div class="row" style="position: absolute;width: 100%;top: 90%;margin: 0;">
+                                        <div class="row"
+                                            style="border-bottom: 1px solid #d2d2d2;margin: 0;width: 100%;">
+                                            <div class="col-md-6 col-xs-6 col-6"
+                                                style="color: #f58d0a;background: url(/Uploads/SanPham/Elantra2016/Desktop/DongCo/bg_performance_max_title2.png) no-repeat 10px 7px;float: left;display: block;font-size: 1.3rem;width: 87px;padding: 53px 10px 0 0;margin-top: 20px;text-align: center;border-right: 1px dashed #bebebe;">
+                                                Max. Power</div>
+                                            <div class="col-md-6 col-xs-6 col-6"
+                                                style="float: left; display: block; padding: 21px 0 0 15px;"><strong
+                                                    style="font-size: 3.0rem; color: #666; line-height: 80px;">83</strong>&nbsp;<span
+                                                    class="unit" style="font-size: 1.4rem; color: #666;">ps</span></div>
+                                            <!-- 2016-03-24 -->
+                                        </div>
+                                        <div class="row" style="margin: 0; width: 100%;">
+                                            <div class="col-md-6 col-xs-6 col-6"
+                                                style="color: #3f86c6; background: url(/Uploads/SanPham/Elantra2016/Desktop/DongCo/bg_performance_max_title2.png) no-repeat 10px -104px; float: left; display: block; font-size: 1.3rem; width: 87px; padding: 53px 10px 0 0; margin-top: 20px; text-align: center; border-right: 1px dashed #bebebe;">
+                                                Max. Torque</div>
+                                            <div class="col-md-6 col-xs-6 col-6"
+                                                style="float: left; display: block; padding: 21px 0 0 15px;"><strong
+                                                    style="font-size: 3.0rem; color: #666; line-height: 80px;">11.6</strong>&nbsp;<span
+                                                    class="unit" style="font-size: 1.4rem; color: #666;">kg·m</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-md-6"
+                                    style="position: absolute; left: 50%; height: 600px; bottom: 15%;">
+                                    <div class="row" style="margin: 0; position: relative; padding-left: 20%;">
+                                        <div style="position: absolute;"><img class="img-fluid lazy"
+                                                style="width: 100%; height: 600px; margin-top: -102px;"
+                                                src="../../assets/images/v2.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <img class="img-fluid lazy" style="margin-top: 50px;" src="../../assets/images/v4.jpg"
+                                    alt="" width="1155" height="556">
+                                <span class="description"
+                                    style="color: #656565; font-size: 16px; padding: 0; width: 306px; line-height: 20px;font-weight: 500;"><strong
+                                        style="display: inline-block; padding: 10px 0 10px 0; color: black !important; font-weight: normal; font-size: 16px;font-weight: 500;">Hộp
+                                        số sàn</strong><br>Gồm 5 cấp số với các bước chuyển số được tinh chỉnh làm tăng
+                                    khả năng phản ứng và sự nhạy bén khi di chuyển, đồng thời giúp tiết kiệm nhiên liệu
+                                    tối đa.</span>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <img class="img-fluid lazy" style="margin-top: 50px;" src="../../assets/images/v5.jpg"
+                                    alt="" width="1155" height="556">
+                                <span class="description"
+                                    style="color: #656565; font-size: 16px; padding: 0; width: 306px; line-height: 20px;font-weight: 500;"><strong
+                                        style="display: inline-block; padding: 10px 0 10px 0; color: black !important; font-weight: normal; font-size: 16px;font-weight: 500;">Hộp
+                                        số tự động</strong><br>Gồm 4 cấp số đảm bảo sự kết hợp hoàn hảo giữa tính năng
+                                    vận hành mạnh mẽ, tiết kiệm nhiên liệu cùng sự bền bỉ bằng các công nghệ tiên tiến
+                                    nhất như van điện từ và bộ chuyển đổi momen xoắn phẳng.</span>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <img class="img-fluid lazy" style="margin-top: 50px;" src="../../assets/images/v6.jpg"
+                                    alt="" width="1155" height="556">
+                                <span class="description"
+                                    style="color: #656565; font-size: 16px; padding: 0; width: 306px; line-height: 20px;font-weight: 500;"><strong
+                                        style="display: inline-block; padding: 10px 0 10px 0; color: black !important; font-weight: normal; font-size: 16px;font-weight: 500;">Đồng
+                                        hồ hiển thị cấp số</strong><br>Đồng hồ điện tử hiện thị cấp số hiện hành giúp
+                                    bạn chủ động trong việc điều khiển xe hơn.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-8 col-lg-8 offset-2 col-12" id="an-toan">
+                    <div class="titlecate-detail modernHBold">
+                        <span style="padding: 8px 18px;border-bottom: 3px solid #0E528B;">AN TOÀN</span>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-12 col-12" style="padding: 0;">
+                    <div style="padding-top: 30px;">
+                        <div style="padding-top: 45px;">
+                            <div class="hidden-xs d-none d-sm-block"
+                                style="position: relative; font-family: MorderHEcolight; font-size: 16px; max-width: 1920px; width: 100%; height: 520px; margin: 0 auto; overflow: hidden; color: transparent; background: url(http://hyundaibacninh.vn/tempfiles/uploads/ChiTietXe/Grandi10-2017/noithat/noi11.png) no-repeat fixed 50% 50% #fff;">
+                                .</div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-8 col-lg-8 offset-2 col-12">
+                    <div style="max-width: 1920px; margin: 0 auto; padding: 10px 0 0 0;">
+                        <div class="text_play" style="margin: 70px 0;">
+                            <div class="text1"
+                                style="color: #222; font-size: 26px; text-transform: uppercase; font-weight: 500; text-align: center;">
+                                CÔNG NGHỆ AN TOÀN HÀNG ĐẦU</div>
+                            <div class="text2"
+                                style="color: #666666; font-size: 17px !important; line-height: 24px; text-align: center;">
+                                Grand i10 sở hữu không gian nội thất rộng rãi, kết hợp cùng phong cách thiết kế cá tính
+                                với những màu sắc trẻ trung tạo nên vẻ ấn tượng không thể trộn lẫn.</div>
+                        </div>
+                    </div>
+                    <div style="position: relative; width: 100%; margin: 0 auto; background: #fff;">
+                        <div style="width: 100%; min-height: 418px; position: relative;">
+                            <div class="container">
+                                <div class="row" style="margin: 0;display: block;position: absolute;overflow: hidden;">
+                                    <img class="img-fluid lazy" style="width: 1280px;" src="../../assets/images/an2.jpg"
+                                        alt="performance_ride_view_1">
+                                    <p style="margin-left: 125px;"><span
+                                            class="col-md-offset-6 col-md-4  col-xs-10 col-xs-offset-1 col-10 col-offset-1"
+                                            style="top: 5%; position: absolute; display: block; line-height: 21px; z-index: 2; color: #666; font-size: 14px;"><strong
+                                                style="display: block; margin: 0 0 17px 0; font-size: 1.6rem; line-height: 24px; color: #000; ">Túi
+                                                khí đôi</strong>Grand i10 hoàn toàn làm hài lòng những người khó tính
+                                            nhất bằng công nghệ an toàn chủ động với túi khí dành cho lái xe và hành
+                                            khách, giúp đảm bảo an toàn tránh chấn thương trong trường hợp va chạm.<br>
+                                        </span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-12 col-md-12 col-12" style="padding: 0;">
+                    <div style="position: relative; width: 100%; margin: 0 auto; background: #fff;">
+                        <div style="width: 100%; min-height: 418px; position: relative; margin-top: 160px;">
+                            <div>
+                                <img class="img-fluid lazy" style="min-height: 700px; width: 100%; margin-top: -27px; "
+                                    src="../../assets/images/an3.jpg" alt="performance_ride_view_1">
+                                <p style="margin-left: 150px;"><span
+                                        class="col-md-offset-1 col-md-4  col-xs-10 col-xs-offset-1"
+                                        style="top: 5%; position: absolute; display: block; line-height: 21px; z-index: 2; color: #666; font-size: 14px; "><strong
+                                            style="display: block; margin: 0 0 17px 0; font-size: 17px !important; line-height: 34px; color: #000;font-weight: 500 !important;">Hệ
+                                            thống hỗ trợ khởi hành ngang dốc HAC</strong>Hệ thống HAC sẽ giúp chiếc
+                                        xe
+                                        giữ nguyên vị trí đang dừng khi xe đỗ ở ngang dốc, xe sẽ di chuyển khi tài
+                                        xế
+                                        chuyển sang bàn đạp ga giúp bạn dễ dàng tiếp tục cuộc hành trình mà không lo
+                                        xe
+                                        bị tụt dốc.<br> </span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8 col-lg-8 offset-2 col-12">
+                    <div class="container" style="margin-top: 36px;">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <img class="img-fluid lazy" style="margin-top: 50px;" src="../../assets/images/an4.jpg"
+                                    alt="" width="1155" height="556">
+                                <span class="description"
+                                    style="color: #656565; font-size: 16px; padding: 0; width: 306px; line-height: 20px;font-weight: 500;"><strong
+                                        style="display: inline-block; padding: 10px 0 10px 0; color: black !important; font-weight: normal; font-size: 16px;font-weight: 500;">Cửa
+                                        sổ điều chỉnh điện</strong><br>Bộ điều khiển điện cửa sổ được đặt bên ghế lái
+                                    giúp bạn dễ đàng điều khiển cửa sổ cũng như đóng mở cửa ra vào.</span>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <img class="img-fluid lazy" style="margin-top: 50px;" src="../../assets/images/an5.jpg"
+                                    alt="" width="1155" height="556">
+                                <span class="description"
+                                    style="color: #656565; font-size: 16px; padding: 0; width: 306px; line-height: 20px;font-weight: 500;"><strong
+                                        style="display: inline-block; padding: 10px 0 10px 0; color: black !important; font-weight: normal; font-size: 16px;font-weight: 500;">Sấy
+                                        kính sau</strong><br>Grand i10 sở hữu kính sau tích hợp chức năng sấy điện, giúp
+                                    đảm bảo tầm nhìn phía sau cho người lái trong điều kiện trời sương mù hoặc có
+                                    mưa.</span>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-12">
+                                <img class="img-fluid lazy" style="margin-top: 50px;" src="../../assets/images/an6.jpg"
+                                    alt="" width="1155" height="556">
+                                <span class="description"
+                                    style="color: #656565; font-size: 16px; padding: 0; width: 306px; line-height: 20px;font-weight: 500;"><strong
+                                        style="display: inline-block; padding: 10px 0 10px 0; color: black !important; font-weight: normal; font-size: 16px;font-weight: 500;">Cửa
+                                        sổ an toàn chống kẹt</strong><br>Grand i10 được trang bị cửa sổ với cảm biến
+                                    chống kẹt tự động, giúp chiếc xe an toàn hơn trong trường hợp gặp chướng ngại vật
+                                    khi kéo gương.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-md-8 col-lg-8 offset-2 col-12" id="tien-nghi">
+                    <div class="titlecate-detail modernHBold">
+                        <span style="padding: 8px 18px;border-bottom: 3px solid #0E528B;">TIỆN NGHI</span>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-12 col-12" style="padding: 0;">
+                    <div style="padding-top: 30px;">
+                        <div style="padding-top: 45px;">
+                            <div class="hidden-xs d-none d-sm-block"
+                                style="font-family: ModernHEcoLight; font-size: 16px; position: relative; max-width: 1920px; width: 100%; height: 520px; margin: 0 auto; overflow: hidden; color: transparent; background: url(http://hyundaibacninh.vn/tempfiles/uploads/ChiTietXe/Grandi10-2017/tiennghi/tien1.jpg) no-repeat fixed 50% 50% #fff;">
+                                .</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-8 col-lg-8 offset-2 col-12">
+
+                    <div>
+                        <div>
+                            <div class="pip_cont">
+                                <div class="text_play" style="margin: 70px 0;">
+                                    <p class="text1"
+                                        style="color: black; font-size: 26px !important; text-transform: uppercase; font-weight: 600; text-align: center;">
+                                        Những công nghệ đỉnh cao <br> tích hợp trong một chiếc xe nhỏ gọn</p>
+                                    <div class="text2"
+                                        style="color: #666666; font-size: 17px !important; line-height: 24px; text-align: center;font-weight: 500;">
+                                        Những chuyến hành trình của bạn sẽ trở nên thú vị hơn với những công nghệ tiện
+                                        ích được trang bị bên trong <strong><a
+                                                href="http://hyundaibacninh.vn/vi/san-pham/grand-i10">Grand
+                                                i10</a></strong></div>
+                                </div>
+                                <div class="container no-padding">
+                                    <div class="row">
+                                        <div class="col-md-6 col-lg-6 col-12">
+                                            <ul style="padding: 0; list-style-type: none;">
+                                                <li style="display: block;">
+                                                    <div class="img"><img class="img-fluid lazy"
+                                                            src="../../assets/images/tien2.jpg"
+                                                            alt="exterior_front_sub1_on"></div>
+                                                    <div class="hidden-xs d-none d-sm-block txt"
+                                                        style="position: absolute; left: 7%; top: 5%; right: 7%; line-height: 20px; color: #888888; z-index: 14; text-align: justify;">
+                                                        <strong
+                                                            style="display: block; margin: 0 0 20px 0; font-size: 17px !important ;line-height: 24px; color: black !important;font-weight: 700;">Hệ
+                                                            thống hỗ trợ đỗ xe RPAS</strong>
+                                                        <p class="hidden-xs d-none d-sm-block"
+                                                            style="font-size: 16px !important; color: #888888 !important;">
+                                                            Hệ thống hỗ trợ đỗ xe RPAS (Rear Parking Assist System) gồm
+                                                            4 cảm biến phía sau giúp phát hiện những chướng ngại vật, hỗ
+                                                            trợ bạn đỗ xe một cách an toàn và nhanh chóng.</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6 col-lg-6 col-12">
+                                            <ul style="padding: 0; list-style-type: none;">
+                                                <li style="display: block;">
+                                                    <div class="img"><img class="img-fluid lazy"
+                                                            src="../../assets/images/noi4.jpg"
+                                                            alt="exterior_front_sub1_on"></div>
+                                                    <div class="hidden-xs d-none d-sm-block txt"
+                                                        style="position: absolute; left: 7%; top: 5%; right: 7%; line-height: 20px; color: #888888; z-index: 14; text-align: justify;">
+                                                        <strong
+                                                            style="display: block; margin: 0 0 20px 0; font-size: 17px !important ;line-height: 24px; color: white !important;font-weight: 700;">Màn
+                                                            hình trung tâm cảm ứng 7 inch</strong>
+                                                        <p class="hidden-xs d-none d-sm-block"
+                                                            style="font-size: 16px !important; color: #888888 !important;">
+                                                            Grand i10 sở hữu màn hình cảm ứng trung tâm kích cỡ 7 inch,
+                                                            hỗ trợ giải
+                                                            trí nghe nhạc Mp3/Radio/Bluetooth/Usb/AUX, xem phim Mp4
+                                                            FullHD cùng bản
+                                                            đồ tích hợp được phát triển dành riêng cho thị trường Việt
+                                                            Nam.</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="container" style="margin-top: 50px;">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-4 col-12">
+                                            <img class="img-fluid lazy" style="margin-top: 50px;"
+                                                src="../../assets/images/tien4.jpg" alt="" width="1155" height="556">
+                                            <span class="description"
+                                                style="color: #656565; font-size: 16px; padding: 0; width: 306px; line-height: 20px;font-weight: 500;"><strong
+                                                    style="display: inline-block; padding: 10px 0 10px 0; color: black !important; font-weight: normal; font-size: 16px;font-weight: 500;">Chìa
+                                                    khóa thông minh & Khởi động nút bấm</strong><br>Chìa khóa thông minh
+                                                giúp chủ xe có thể dễ dàng vào trong xe với chỉ một nút bấm trên tay nắm
+                                                cửa. Nút khởi động Start/Stop Engine giúp việc khởi động hoặt tắt máy
+                                                đơn giản hơn bao giờ hết với chỉ 1 nút bấm.</span>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-12">
+                                            <img class="img-fluid lazy" style="margin-top: 50px;"
+                                                src="../../assets/images/tien5.jpg" alt="" width="1155" height="556">
+                                            <span class="description"
+                                                style="color: #656565; font-size: 16px; padding: 0; width: 306px; line-height: 20px;font-weight: 500;"><strong
+                                                    style="display: inline-block; padding: 10px 0 10px 0; color: black !important; font-weight: normal; font-size: 16px;font-weight: 500;">Khay
+                                                    để đồ phía sau</strong><br>Khay để đồ phía sau giúp bạn thuận tiện
+                                                để vật dụng cá nhân</span>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-12">
+                                            <img class="img-fluid lazy" style="margin-top: 50px;"
+                                                src="../../assets/images/tien6.jpg" alt="" width="1155" height="556">
+                                            <span class="description"
+                                                style="color: #656565; font-size: 16px; padding: 0; width: 306px; line-height: 20px;font-weight: 500;"><strong
+                                                    style="display: inline-block; padding: 10px 0 10px 0; color: black !important; font-weight: normal; font-size: 16px;font-weight: 500;">Đèn
+                                                    chiếu sáng cốp</strong><br>Cốp xe Grand i10 được trang bị đèn chiếu
+                                                sáng, giúp bạn dễ dàng lấy hoặc sắp đặt hành lí trong điều kiện ánh sáng
+                                                không tốt hoặc vào ban đêm.</span>
+                                        </div>
+                                        <div class="col-lg-4 col-md-4 col-12">
+                                            <img class="img-fluid lazy" style="margin-top: 50px;"
+                                                src="../../assets/images/tien7.jpg" alt="" width="1155" height="556">
+                                            <span class="description"
+                                                style="color: #656565; font-size: 16px; padding: 0; width: 306px; line-height: 20px;font-weight: 500;"><strong
+                                                    style="display: inline-block; padding: 10px 0 10px 0; color: black !important; font-weight: normal; font-size: 16px;font-weight: 500;">Vô
+                                                    lăng chỉnh hướng</strong><br>Vô lăng của <strong><a
+                                                        href="http://hyundaibacninh.vn/vi/san-pham/grand-i10">Hyundai
+                                                        Grand i10</a></strong> có khả
+                                                năng điều chỉnh 4 hướng, giúp người lái dễ dàng tìm được tư thế thỏa mái
+                                                nhất. Tay lái của xe cũng được tích hợp nút điều khiển chức năng làm
+                                                tăng tính tiện nghi, an toàn và thuận tiện.</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- <div class="col-md-8 col-lg-8 offset-2 col-12 new-extend">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-4 list-new">
+                            <div class="title-menu">
+                                Tin tức liên quan
+                            </div>
+                            <div class="new-list">
+                                <span class="glyphicon glyphicon-stop square"></span>
+                                <a target="_blank"
+                                    href="/vi/tin-tuc/tin-khuyen-mai/CH%C6%AF%C6%A0NG%20TR%C3%8CNH%20%C6%AFU%20%C4%90%C3%83I%20%C4%90%E1%BA%B6C%20BI%E1%BB%86T%3a%20KHUY%E1%BA%BEN%20M%E1%BA%A0I%20l%C3%AAn%20t%E1%BB%9Bi%2040%20TRI%E1%BB%86U%20%C4%90%E1%BB%92NG%20KHI%20MUA%20XE/1953"
+                                    class="new-title">CHƯƠNG TRÌNH ƯU ĐÃI ĐẶC BIỆT: KHUYẾN MẠI lên tới 40 TRIỆU ĐỒNG KHI
+                                    MUA XE</a>
+                                <div class="new-date">
+                                    17/03/2020 04:06:07 | 3583 lượt xem
+                                </div>
+                            </div>
+                            <div class="new-list">
+                                <span class="glyphicon glyphicon-stop square"></span>
+                                <a target="_blank"
+                                    href="/vi/tin-tuc/tin-khuyen-mai/M%E1%BB%AANG%20XU%C3%82N%20SANG%20%E2%80%93%20NG%E1%BA%ACP%20TR%C3%80N%20%C6%AFU%20%C4%90%C3%83I/1951"
+                                    class="new-title">MỪNG XUÂN SANG – NGẬP TRÀN ƯU ĐÃI </a>
+                                <div class="new-date">
+                                    04/03/2020 03:39:41 | 4590 lượt xem
+                                </div>
+                            </div>
+                            <div class="new-list">
+                                <span class="glyphicon glyphicon-stop square"></span>
+                                <a target="_blank"
+                                    href="/vi/tin-tuc/tin-cong-ty/L%C3%81I%20TH%E1%BB%AC%20HYUNDAI%20%E2%80%93%20TR%E1%BA%A2I%20NGHI%E1%BB%86M%20%C4%90%E1%BA%B2NG%20C%E1%BA%A4P/1950"
+                                    class="new-title">LÁI THỬ HYUNDAI – TRẢI NGHIỆM ĐẲNG CẤP</a>
+                                <div class="new-date">
+                                    04/03/2020 02:59:47 | 2774 lượt xem
+                                </div>
+                            </div>
+                            <div class="new-list">
+                                <span class="glyphicon glyphicon-stop square"></span>
+                                <a target="_blank"
+                                    href="/vi/tin-tuc/tin-khuyen-mai/CH%C6%AF%C6%A0NG%20TR%C3%8CNH%20KHUY%E1%BA%BEN%20M%C3%83I%20%C4%90%E1%BA%B6C%20BI%E1%BB%86T%20%E2%80%9CR%C6%AF%E1%BB%9AC%20XE%20TH%C3%81NG%20N%C3%80Y%20%E2%80%93%20NH%E1%BA%ACN%20NGAY%20QU%C3%80%20KH%E1%BB%A6NG%E2%80%9D/1940"
+                                    class="new-title">CHƯƠNG TRÌNH KHUYẾN MÃI ĐẶC BIỆT “RƯỚC XE THÁNG NÀY – NHẬN NGAY
+                                    QUÀ KHỦNG”</a>
+                                <div class="new-date">
+                                    29/11/2019 04:44:14 | 11981 lượt xem
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-4 list-new">
+                            <div class="title-menu">
+                                KINH NGHIỆM LÁI XE GRAND I10
+                            </div>
+                            <div class="new-list">
+                                <span class="glyphicon glyphicon-stop square"></span>
+                                <a target="_blank"
+                                    href="/vi/tu-van-mua-xe/kinh-nghiem-lai-xe-an-toan-dip-tet-an-toan-la-hanh-phuc"
+                                    class="new-title">Kinh nghiệm lái xe an toàn dịp tết – an toàn là hạnh phúc</a>
+                                <div class="new-date">
+                                    20/12/2017 05:36:31
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-4 list-new">
+                            <div class="title-menu">
+                                ĐÁNH GIÁ XE GRAND I10
+                            </div>
+                            <div class="new-list">
+                                <span class="glyphicon glyphicon-stop square"></span>
+
+                                <a data-fancybox-type="iframe" target="_blank"
+                                    href="/vi/danh-gia-xe/danh-gia-xe/danh-gia-hyundai-grand-i10-5-uu-diem-khong-the-bo-qua/1467"
+                                    class="new-title">Đánh
+                                    Giá Hyundai Grand i10] 5 Ưu Điểm Không Thể Bỏ Qua</a>
+                                <div class="new-date">
+                                    15/06/2017 02:20:59 | 1554 lượt xem
+                                </div>
+                            </div>
+                            <div class="new-list">
+                                <span class="glyphicon glyphicon-stop square"></span>
+
+                                <a data-fancybox-type="iframe" target="_blank"
+                                    href="/vi/danh-gia-xe/danh-gia-xe/danh-gia-hyundai-grand-i10-gia-phai-chang-chat-luong-vuot-troi/1818"
+                                    class="new-title">Đánh
+                                    giá Hyundai Grand i10 - Giá phải chăng, chất lượng vượt trội!</a>
+                                <div class="new-date">
+                                    03/04/2018 03:21:54 | 3045 lượt xem
+                                </div>
+                            </div>
+                            <div class="new-list">
+                                <span class="glyphicon glyphicon-stop square"></span>
+
+                                <a data-fancybox-type="iframe" target="_blank"
+                                    href="/vi/danh-gia-xe/danh-gia-xe/hyundai-grand-i10-2017-an-tuong-ngay-tu-cai-nhin-dau-tien/1773"
+                                    class="new-title">Hyundai
+                                    Grand i10 2017 - ấn tượng ngay từ cái nhìn đầu tiên</a>
+                                <div class="new-date">
+                                    08/08/2017 05:32:07 | 1587 lượt xem
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div> -->
+            </div>
+        </div>
+    </div>
+</div>

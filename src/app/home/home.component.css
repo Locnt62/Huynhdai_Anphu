@@ -1,0 +1,54 @@
+.prcate-body{
+    /* padding-top: 85px; */
+    margin-top: 85px;
+    /* padding-left: 240px;
+    padding-right: 240px; */
+}
+
+/* .prcate-item{
+    margin-top: 85px;
+    margin-left: 240px;
+    margin-right: 240px;
+} */
+
+
+.detail-prd{
+    background: #fff;
+    height: 215px;
+    width: 100%;
+    float: left;
+    padding-top: 25px;
+    text-align: center;
+}
+
+ .image1 {
+    /* transition: all 1s ease; */
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+.image1:hover{
+    /* width: 300px;
+    height: 300px; */
+    /* transform: scaleY(1.2);
+    -moz-transform: scaleY(1.2);
+    -webkit-transform: scaleY(1.2); */
+
+    transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+}
+
+.carname{
+    font-size: 15px;
+    /* font-family: ModernHBold; */
+    color: #333333;
+    margin-top: -10px;
+    font-weight: 700;
+}
+
+.email{
+    padding: 30px 0;
+    background-color: #f7fafd;
+    margin-top: 30px;
+}
