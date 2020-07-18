@@ -21,6 +21,8 @@ export class ChiTietSanPhamComponent implements OnInit {
   ngOnInit() {
   }
 
+  Hello(){}
+
   scrollTo(id) {
   this.ST = document.getElementById(id).offsetTop;
   window.scrollTo({
